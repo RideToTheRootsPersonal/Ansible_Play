@@ -1,0 +1,13 @@
+---
+- name: "First playbook"
+  hosts: localhost
+
+  tasks:
+
+    - name: "test the connection"
+      ping:
+
+    - name: "find module"
+      find:
+        path: Challenge1
+        file_type: file

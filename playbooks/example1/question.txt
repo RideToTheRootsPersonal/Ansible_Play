@@ -1,0 +1,4 @@
+1. create two text files in the directory of your choosing.
+2. create a playbook with a single play tat consists of two tasks run against your local Ansible control node.
+3. the first task should ping the local Ansible system.
+4. the second task should display the details of the two text files.
