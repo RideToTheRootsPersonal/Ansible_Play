@@ -1,5 +1,6 @@
 ---
 - name: Configuration changes
+  become: true
   hosts: logicservers
   tasks:
 
